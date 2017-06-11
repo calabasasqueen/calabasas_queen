@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "Bebas";
+  src: url('./fonts/bebas.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: "Notera";
+  src: url('./fonts/notera.ttf') format("truetype");
+}
+
+html {
+  height: 100%;
+  background: -webkit-linear-gradient(#FFAEB9, white 85%);
+  background: -o-linear-gradient(#FFAEB9, white 85%);
+  background: -moz-linear-gradient(#FFAEB9, white 85%);
+  background: linear-gradient(#FFAEB9, white 85%);
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: transparent !important;
+}
+
+main {
+  position: relative;
+  text-align: center;
+}
+
+.coming-soon {
+  font-family: "Notera";
+  position: absolute;
+  width: 100%;
+  top: 25vh;
+}
+
+.coming-soon h1 {
+  font-size: 150px !important;
+}
+
+.calabasas {
+  font-family: "Bebas";
+  position: absolute;
+  width: 100%;
+  top: 85vh;
+}
